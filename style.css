@@ -29,9 +29,10 @@ header {
 .name {
     color: #fff;
     font-weight: 700;
+    font-family: "Mouse Memoirs";
     text-decoration: none;
     font-size: 1.5rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 4px;
     opacity: 0.5;
     transition: ease-in-out 0.4s;
 }
@@ -120,11 +121,16 @@ section img {
     border-radius: 40px;
     background-color: #fff;
     color: #2b1055;
-    font-size: 1.5em;
+    font-size: 2em;
     display: inline-block;
+    font-family: "Mouse Memoirs";
     z-index: 9;
     transform: translateY(100px);
+    opacity: 0.5;
+}
 
+#btn:hover {
+    opacity: 1;
 }
 
 /* DESCRIPITION */
@@ -139,11 +145,13 @@ section img {
     color: #fff;
     font-size: 1.5em;
     margin-bottom: 10px;
+    font-family: "BhuTuka Expanded One";
 }
 
 .secound_content p {
     color: #fff;
-    font-size: 1em;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
